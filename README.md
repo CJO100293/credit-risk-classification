@@ -1,12 +1,12 @@
 # credit-risk-classification
-# **Important Notes:**
+## **Important Notes:**
 - If when running the "Fit the original training data to the random_oversampler model" section of "credit_risk_classification.ipynb" you get an error saying "ImportError: cannot import name _MissingValues from sklearn.utils._param_validation" then per https://stackoverflow.com/questions/76593906/how-to-resolve-cannot-import-name-missingvalues-from-sklearn-utils-param-v you will need to downgrade to scikit-learn 1.2.2 by typing the following commands:
     - conda remove scikit-learn
     - conda install scikit-learn=1.2.2
 - Also make sure PIP is installed using the following command:
     - conda install pip
 
-# **Background:**
+## **Background:**
 In this Challenge, you’ll use various techniques to train and evaluate a model based on loan risk. You’ll use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 
 The instructions for this Challenge are divided into the following subsections:
@@ -36,7 +36,7 @@ Write a brief report that includes a summary and analysis of the performance of 
 - The results: Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
 - A summary: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
 
-# **Credit Risk Analysis Report**
+## **Credit Risk Analysis Report**
 ### **Overview of the Analysis**
 - ANSWER: Explain the purpose of the analysis.
 - ANSWER: Explain what financial information the data was on, and what you needed to predict.
