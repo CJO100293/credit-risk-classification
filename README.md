@@ -1,4 +1,11 @@
 # credit-risk-classification
+## **Important Notes:**
+- If when running the "Fit the original training data to the random_oversampler model" section of "credit_risk_classification.ipynb" you get an error saying "ImportError: cannot import name _MissingValues from sklearn.utils._param_validation" then per https://stackoverflow.com/questions/76593906/how-to-resolve-cannot-import-name-missingvalues-from-sklearn-utils-param-v you will need to downgrade to scikit-learn 1.2.2 by typing the following commands
+1. conda remove scikit-learn
+2. conda install scikit-learn=1.2.2
+- Also make sure PIP is installed using the following command:
+1. conda install pip
+
 ## **Background:**
 In this Challenge, you’ll use various techniques to train and evaluate a model based on loan risk. You’ll use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 
@@ -30,3 +37,6 @@ Write a brief report that includes a summary and analysis of the performance of 
 3. A summary: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
 
 ## **Sources:**
+- The basis for the code used in the "Check the balance of our target values" section of "credit_risk_classification.ipynb" was found from https://pandas.pydata.org/docs/reference/api/pandas.Series.value_counts.html.
+- The basis for the code used in the "Print the balanced_accuracy score of the model" section of  "credit_risk_classification.ipynb" was found from https://scikit-learn.org/stable/modules/generated/sklearn.metrics.balanced_accuracy_score.html.
+- The basis for the code used in the "Instantiate the random oversampler model, Assign a random_state parameter of 1 to the model" section of "credit_risk_classification.ipynb" was fround from https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.RandomOverSampler.html.
