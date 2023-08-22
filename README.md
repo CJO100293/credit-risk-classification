@@ -1,9 +1,9 @@
 # credit-risk-classification
 ## **Important Notes:**
-- If when running the "Fit the original training data to the random_oversampler model" section of "credit_risk_classification.ipynb" you get an error saying "ImportError: cannot import name _MissingValues from sklearn.utils._param_validation" then per https://stackoverflow.com/questions/76593906/how-to-resolve-cannot-import-name-missingvalues-from-sklearn-utils-param-v you will need to downgrade to scikit-learn 1.2.2 by typing the following commands
+- If when running the "Fit the original training data to the random_oversampler model" section of "credit_risk_classification.ipynb" you get an error saying "ImportError: cannot import name _MissingValues from sklearn.utils._param_validation" then per https://stackoverflow.com/questions/76593906/how-to-resolve-cannot-import-name-missingvalues-from-sklearn-utils-param-v you will need to downgrade to scikit-learn 1.2.2 by typing the following commands:
 1. conda remove scikit-learn
 2. conda install scikit-learn=1.2.2
-- Also make sure PIP is installed using the following command:
+    - Also make sure PIP is installed using the following command:
 1. conda install pip
 
 ## **Background:**
