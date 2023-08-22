@@ -36,8 +36,34 @@ Write a brief report that includes a summary and analysis of the performance of 
 - The results: Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
 - A summary: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
 
+# **Credit Risk Analysis Report**
+### **Overview of the Analysis**
+- ANSWER: Explain the purpose of the analysis.
+- ANSWER: Explain what financial information the data was on, and what you needed to predict.
+- ANSWER: Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
+- ANSWER: Describe the stages of the machine learning process you went through as part of this analysis.
+- ANSWER: Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+
+### **Results**
+- Machine Learning Model 1
+    - ANSWER: Description of Model 1 Accuracy Scores
+    - ANSWER: Description of Model 1 Precision Scores
+    - ANSWER: Description of Model 1 Recall Scores
+
+- Machine Learning Model 2
+    - ANSWER: Description of Model 2 Accuracy Scores
+    - ANSWER: Description of Model 2 Precision Scores
+    - ANSWER: Description of Model 2 Recall Scores
+
+### **Summary**
+- Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
+    - Which one seems to perform best? How do you know it performs best?
+    - Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+    - If you do not recommend any of the models, please justify your reasoning.
+
 ## **Sources:**
 - The basis for the majority of the code used in "credit_risk_classification.ipynb" came from the class activities "1/04-Stu_Predicting_Diabetes" and "2/08-Stu_Predicting_Bank_Customers". The rest came from the following sources:
     - The basis for the code used in the "Check the balance of our target values" section of "credit_risk_classification.ipynb" was found from https://pandas.pydata.org/docs/reference/api/pandas.Series.value_counts.html.
     - The basis for the code used in the "Print the balanced_accuracy score of the model" section of  "credit_risk_classification.ipynb" was found from https://scikit-learn.org/stable/modules/generated/sklearn.metrics.balanced_accuracy_score.html.
     - The basis for the code used in the "Instantiate the random oversampler model, Assign a random_state parameter of 1 to the model" section of "credit_risk_classification.ipynb" was fround from https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.RandomOverSampler.html.
+    - The Basis for the code used in the "Retrieving Recall Score Averages of logistic regression model" and "Retrieving Recall Score Averages of Oversampled logistic regression model" sections of "credit_risk_classification.ipynb" came from https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html#:~:text=Compute%20the%20recall.,the%20worst%20value%20is%200 and https://ipython.readthedocs.io/en/stable/api/generated/IPython.display.html.
