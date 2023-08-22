@@ -37,7 +37,7 @@ Write a brief report that includes a summary and analysis of the performance of 
 3. A summary: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
 
 ## **Sources:**
-- The basis for the majorit of the code used in "credit_risk_classification.ipynb" came from the class activities "1/04-Stu_Predicting_Diabetes" and "2/08-Stu_Predicting_Bank_Customers". The rest came from the following sources:
+- The basis for the majority of the code used in "credit_risk_classification.ipynb" came from the class activities "1/04-Stu_Predicting_Diabetes" and "2/08-Stu_Predicting_Bank_Customers". The rest came from the following sources:
     - The basis for the code used in the "Check the balance of our target values" section of "credit_risk_classification.ipynb" was found from https://pandas.pydata.org/docs/reference/api/pandas.Series.value_counts.html.
     - The basis for the code used in the "Print the balanced_accuracy score of the model" section of  "credit_risk_classification.ipynb" was found from https://scikit-learn.org/stable/modules/generated/sklearn.metrics.balanced_accuracy_score.html.
     - The basis for the code used in the "Instantiate the random oversampler model, Assign a random_state parameter of 1 to the model" section of "credit_risk_classification.ipynb" was fround from https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.RandomOverSampler.html.
